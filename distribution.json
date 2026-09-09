@@ -1,0 +1,3582 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "servers": [
+    {
+      "id": "realmofashes-1.20.1",
+      "name": "Realm of Ashes",
+      "description": "Realm of Ashes (Minecraft 1.20.1, Forge 47.4.10)",
+      "icon": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/SealCircle.png",
+      "version": "1.0.0",
+      "address": "MCEARNA",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": ">=17",
+        "suggestedMajor": 17,
+        "ram": {
+          "recommended": 4096,
+          "minimum": 2048
+        }
+      },
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "39c68f8be018557068512f16cf3f97fa",
+            "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.10",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "eede38b0c090f69c7789cd35e753853d",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/versions/1.20.1-forge-47.4.10/1.20.1-forge-47.4.10.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118913,
+                "MD5": "340eb6124a32dab3bfaea8f1b2f3dd02",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16854,
+                "MD5": "1193446859d078e83d9fcc4d8a39f44d",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4999,
+                "MD5": "13e469f44fc6fff975688c6b18f8e9a1",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2777708,
+                "MD5": "f202df135ad32fef7e7c42e957c142af",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848366,
+                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "9446521da84ab53aa7a81af82d4e854a",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170518,
+                "MD5": "828cdcc361baffcdd38d7b7d05c62e35",
+                "url": "https://nedimexe.github.io/realmofashes-distro/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "appleskin-client.toml",
+          "name": "appleskin-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1361,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/appleskin-client.toml",
+            "MD5": "999dd7d912a7eb915c59b1025710ca12",
+            "path": "config/appleskin-client.toml"
+          }
+        },
+        {
+          "id": "astikorcartsredux-client.toml",
+          "name": "astikorcartsredux-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 553,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/astikorcartsredux-client.toml",
+            "MD5": "686e134a400a9a3e2be6838c4aec41a5",
+            "path": "config/astikorcartsredux-client.toml"
+          }
+        },
+        {
+          "id": "astikorcartsredux-common.toml",
+          "name": "astikorcartsredux-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4537,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/astikorcartsredux-common.toml",
+            "MD5": "43c68aeb13a26e953ec12ec01b3219a8",
+            "path": "config/astikorcartsredux-common.toml"
+          }
+        },
+        {
+          "id": "Butchery.toml",
+          "name": "Butchery.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4680,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/Butchery.toml",
+            "MD5": "fe682641dd8375b31011ebeec3f6eb8e",
+            "path": "config/Butchery.toml"
+          }
+        },
+        {
+          "id": "cardinal-components-api.properties",
+          "name": "cardinal-components-api.properties",
+          "type": "File",
+          "artifact": {
+            "size": 273,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/cardinal-components-api.properties",
+            "MD5": "7ca22fadddc61aebd6de92cf16952f74",
+            "path": "config/cardinal-components-api.properties"
+          }
+        },
+        {
+          "id": "collective.json5",
+          "name": "collective.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2471,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/collective.json5",
+            "MD5": "7283fbc343c15ada551964030d57ea71",
+            "path": "config/collective.json5"
+          }
+        },
+        {
+          "id": "configlibtxf-example.json5",
+          "name": "configlibtxf-example.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1618,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/configlibtxf-example.json5",
+            "MD5": "ae8598d58e6055ca5cad4b14237f3abc",
+            "path": "config/configlibtxf-example.json5"
+          }
+        },
+        {
+          "id": "connector.json",
+          "name": "connector.json",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/connector.json",
+            "MD5": "e625d3c4a748b81b7f8521b27f7d2365",
+            "path": "config/connector.json"
+          }
+        },
+        {
+          "id": "connectorextras_energy_bridge-common.toml",
+          "name": "connectorextras_energy_bridge-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 345,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/connectorextras_energy_bridge-common.toml",
+            "MD5": "5e5b1e0aca4e0a21012504b5d7721bbe",
+            "path": "config/connectorextras_energy_bridge-common.toml"
+          }
+        },
+        {
+          "id": "dynamictrees-common.toml",
+          "name": "dynamictrees-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1555,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/dynamictrees-common.toml",
+            "MD5": "65e5efe3a7b0ddcd92713d801596f35c",
+            "path": "config/dynamictrees-common.toml"
+          }
+        },
+        {
+          "id": "dialog_client.cfg",
+          "name": "dialog_client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 280,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/dialog_client.cfg",
+            "MD5": "33c3b0114be97b87ae46492e82c16eba",
+            "path": "config/easy_npc/dialog_client.cfg"
+          }
+        },
+        {
+          "id": "dialog_options.cfg",
+          "name": "dialog_options.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 476,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/dialog_options.cfg",
+            "MD5": "4dbc5497eaa8c41395b2ae02ae0c38d3",
+            "path": "config/easy_npc/dialog_options.cfg"
+          }
+        },
+        {
+          "id": "npc_base.cfg",
+          "name": "npc_base.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 216,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/npc_base.cfg",
+            "MD5": "cc876447edf9f03b4c6d823b1914b1e0",
+            "path": "config/easy_npc/npc_base.cfg"
+          }
+        },
+        {
+          "id": "remote_texture.cfg",
+          "name": "remote_texture.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 248,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/remote_texture.cfg",
+            "MD5": "786ad25e3916fda2d7b3736e0f6c0dbd",
+            "path": "config/easy_npc/remote_texture.cfg"
+          }
+        },
+        {
+          "id": "render_entity_type_support.cfg",
+          "name": "render_entity_type_support.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 31657,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/render_entity_type_support.cfg",
+            "MD5": "5b8e181ff5b317abdcf20033cd33ac8d",
+            "path": "config/easy_npc/render_entity_type_support.cfg"
+          }
+        },
+        {
+          "id": "security.cfg",
+          "name": "security.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3366,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/security.cfg",
+            "MD5": "0d693098ffc3f84c3669d0d1e0059d16",
+            "path": "config/easy_npc/security.cfg"
+          }
+        },
+        {
+          "id": "allay_template.png",
+          "name": "allay_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 246,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/allay/allay_template.png",
+            "MD5": "dc449d0dd6cb93d91fa6e34ecd44376a",
+            "path": "config/easy_npc/skin/allay/allay_template.png"
+          }
+        },
+        {
+          "id": "cat_template.png",
+          "name": "cat_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 283,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/cat/cat_template.png",
+            "MD5": "ddb9d8f03724aa1fe201fd7fbefb81da",
+            "path": "config/easy_npc/skin/cat/cat_template.png"
+          }
+        },
+        {
+          "id": "chicken_template.png",
+          "name": "chicken_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 287,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/chicken/chicken_template.png",
+            "MD5": "f06078d2850eb0020f2e86dd93c84a5a",
+            "path": "config/easy_npc/skin/chicken/chicken_template.png"
+          }
+        },
+        {
+          "id": "creeper_template.png",
+          "name": "creeper_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/creeper/creeper_template.png",
+            "MD5": "460afd5ae6039e184859666d02797e9d",
+            "path": "config/easy_npc/skin/creeper/creeper_template.png"
+          }
+        },
+        {
+          "id": "ender_man_template.png",
+          "name": "ender_man_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 276,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/ender_man/ender_man_template.png",
+            "MD5": "11a98be328121d89396fa59e1aa29df2",
+            "path": "config/easy_npc/skin/ender_man/ender_man_template.png"
+          }
+        },
+        {
+          "id": "fairy_template.png",
+          "name": "fairy_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 434,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/fairy/fairy_template.png",
+            "MD5": "531b238034eb6fdcf494378d6de62d69",
+            "path": "config/easy_npc/skin/fairy/fairy_template.png"
+          }
+        },
+        {
+          "id": "fox_template.png",
+          "name": "fox_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 335,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/fox/fox_template.png",
+            "MD5": "5850512e21b0c58b42207510a63a923d",
+            "path": "config/easy_npc/skin/fox/fox_template.png"
+          }
+        },
+        {
+          "id": "humanoid_template.png",
+          "name": "humanoid_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/humanoid/humanoid_template.png",
+            "MD5": "a39224182358dcbf6615b9faeb732933",
+            "path": "config/easy_npc/skin/humanoid/humanoid_template.png"
+          }
+        },
+        {
+          "id": "humanoid_slim_template.png",
+          "name": "humanoid_slim_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 384,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png",
+            "MD5": "41f831333d68c3a4535adbe574f0511c",
+            "path": "config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png"
+          }
+        },
+        {
+          "id": "husk_template.png",
+          "name": "husk_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/husk/husk_template.png",
+            "MD5": "66e672cdead5768165586f4b24c1f61c",
+            "path": "config/easy_npc/skin/husk/husk_template.png"
+          }
+        },
+        {
+          "id": "illager_template.png",
+          "name": "illager_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 300,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/illager/illager_template.png",
+            "MD5": "62e2eafe9879c26a5d39f6eed5a0d4c0",
+            "path": "config/easy_npc/skin/illager/illager_template.png"
+          }
+        },
+        {
+          "id": "iron_golem_template.png",
+          "name": "iron_golem_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 451,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/iron_golem/iron_golem_template.png",
+            "MD5": "041e19a3a9e328e569c1572c60bf7f82",
+            "path": "config/easy_npc/skin/iron_golem/iron_golem_template.png"
+          }
+        },
+        {
+          "id": "orc_template.png",
+          "name": "orc_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 521,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/orc/orc_template.png",
+            "MD5": "529d5d314ad4dc8f697f7341f35cab74",
+            "path": "config/easy_npc/skin/orc/orc_template.png"
+          }
+        },
+        {
+          "id": "pig_template.png",
+          "name": "pig_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 270,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/pig/pig_template.png",
+            "MD5": "cfc2538d1df812a5ee4ced14b78f9fd3",
+            "path": "config/easy_npc/skin/pig/pig_template.png"
+          }
+        },
+        {
+          "id": "piglin_template.png",
+          "name": "piglin_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 361,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/piglin/piglin_template.png",
+            "MD5": "54ae451400c57b4832f976487e7bf629",
+            "path": "config/easy_npc/skin/piglin/piglin_template.png"
+          }
+        },
+        {
+          "id": "skeleton_template.png",
+          "name": "skeleton_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/skeleton/skeleton_template.png",
+            "MD5": "b6f689ff48f8cd4b03a51947133a3857",
+            "path": "config/easy_npc/skin/skeleton/skeleton_template.png"
+          }
+        },
+        {
+          "id": "spider_template.png",
+          "name": "spider_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 308,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/spider/spider_template.png",
+            "MD5": "03664e96aea4f091f754f2b853f2b853",
+            "path": "config/easy_npc/skin/spider/spider_template.png"
+          }
+        },
+        {
+          "id": "stray_template.png",
+          "name": "stray_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 531,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/stray/stray_template.png",
+            "MD5": "66e672cdead5768165586f4b24c1f61c",
+            "path": "config/easy_npc/skin/stray/stray_template.png"
+          }
+        },
+        {
+          "id": "vex_template.png",
+          "name": "vex_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 247,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/vex/vex_template.png",
+            "MD5": "37f6d362729979569dd8f1f4e6429f07",
+            "path": "config/easy_npc/skin/vex/vex_template.png"
+          }
+        },
+        {
+          "id": "villager_template.png",
+          "name": "villager_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 357,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/villager/villager_template.png",
+            "MD5": "30e84778924e6c66aef598b8a3cd728a",
+            "path": "config/easy_npc/skin/villager/villager_template.png"
+          }
+        },
+        {
+          "id": "villager_without_hat_template.png",
+          "name": "villager_without_hat_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 331,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/villager/villager_without_hat_template.png",
+            "MD5": "3d8bca495a0fad6240e900d343c9f1d7",
+            "path": "config/easy_npc/skin/villager/villager_without_hat_template.png"
+          }
+        },
+        {
+          "id": "witch_template.png",
+          "name": "witch_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 431,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/witch/witch_template.png",
+            "MD5": "3f15cb59a845607aca5614bd12e9df62",
+            "path": "config/easy_npc/skin/witch/witch_template.png"
+          }
+        },
+        {
+          "id": "wolf_template.png",
+          "name": "wolf_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 321,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/wolf/wolf_template.png",
+            "MD5": "0adf39c4b15ec11850e85fdfcd8e0a59",
+            "path": "config/easy_npc/skin/wolf/wolf_template.png"
+          }
+        },
+        {
+          "id": "zombie_template.png",
+          "name": "zombie_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 292,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/zombie/zombie_template.png",
+            "MD5": "a38b0b7043eb7c0e91379628aeed1db2",
+            "path": "config/easy_npc/skin/zombie/zombie_template.png"
+          }
+        },
+        {
+          "id": "zombie_villager_template.png",
+          "name": "zombie_villager_template.png",
+          "type": "File",
+          "artifact": {
+            "size": 356,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/skin/zombie_villager/zombie_villager_template.png",
+            "MD5": "b0748467bd2149105ad4d922c7799ed0",
+            "path": "config/easy_npc/skin/zombie_villager/zombie_villager_template.png"
+          }
+        },
+        {
+          "id": "spawner_type.cfg",
+          "name": "spawner_type.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1187,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/spawner_type.cfg",
+            "MD5": "500c2318f65974d5cf894e94337663e1",
+            "path": "config/easy_npc/spawner_type.cfg"
+          }
+        },
+        {
+          "id": "speech_bubble_client.cfg",
+          "name": "speech_bubble_client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 875,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/easy_npc/speech_bubble_client.cfg",
+            "MD5": "7690e8ee974dc7b5a696db48d79eb512",
+            "path": "config/easy_npc/speech_bubble_client.cfg"
+          }
+        },
+        {
+          "id": "camera.json",
+          "name": "camera.json",
+          "type": "File",
+          "artifact": {
+            "size": 2842,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/efmocap/camera.json",
+            "MD5": "5ac33abfbc1483a9c3a8787642849461",
+            "path": "config/efmocap/camera.json"
+          }
+        },
+        {
+          "id": "embeddium-fingerprint.json",
+          "name": "embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "fad91d26cd2a4d492f3b21842be05edb",
+            "path": "config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "a9176524f816153a7967217b53bb75a1",
+            "path": "config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 852,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/embeddium-options.json",
+            "MD5": "c0a96a9199ece4278654cf6e1fb2584c",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "ServerCommunicationHelper.dll",
+          "name": "ServerCommunicationHelper.dll",
+          "type": "File",
+          "artifact": {
+            "size": 233472,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/epicfight/native/ServerCommunicationHelper.dll",
+            "MD5": "491283b49b10bac0529346b576fca39e",
+            "path": "config/epicfight/native/ServerCommunicationHelper.dll"
+          }
+        },
+        {
+          "id": "epicfight-client.toml",
+          "name": "epicfight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2689,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/epicfight-client.toml",
+            "MD5": "9d8015522e1cbc0c6fff5679864d943c",
+            "path": "config/epicfight-client.toml"
+          }
+        },
+        {
+          "id": "epicfight-common.toml",
+          "name": "epicfight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 533,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/epicfight-common.toml",
+            "MD5": "dad0cf6eb3e404230262779899e1ab71",
+            "path": "config/epicfight-common.toml"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 291,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "e8710cf0ba02abcb4d4eb09711fccc0f",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "3fe25c46-82b0-4cf8-959c-3d5f47decd65.png",
+          "name": "3fe25c46-82b0-4cf8-959c-3d5f47decd65.png",
+          "type": "File",
+          "artifact": {
+            "size": 2551021,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/assets/3fe25c46-82b0-4cf8-959c-3d5f47decd65.png",
+            "MD5": "6c284f260f027307db892e8200077e1b",
+            "path": "config/fancymenu/assets/3fe25c46-82b0-4cf8-959c-3d5f47decd65.png"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 76,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "8cd335741f1acd023a5203836fb9b944",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "realmofashesmenu.txt",
+          "name": "realmofashesmenu.txt",
+          "type": "File",
+          "artifact": {
+            "size": 79277,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/customization/realmofashesmenu.txt",
+            "MD5": "00ea8d2dd3472a594964fb43966b19fe",
+            "path": "config/fancymenu/customization/realmofashesmenu.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "164ae22f3d3d4c3cca2bbe595f42fa11",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4399,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/options.txt",
+            "MD5": "ade471e4e63f432514deaf6874708db1",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "cherry_blossom.json",
+          "name": "cherry_blossom.json",
+          "type": "File",
+          "artifact": {
+            "size": 9349,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/ui_themes/cherry_blossom.json",
+            "MD5": "90e358ee1c6bbd1d17bbcdad0a504f3d",
+            "path": "config/fancymenu/ui_themes/cherry_blossom.json"
+          }
+        },
+        {
+          "id": "cozy_campfire.json",
+          "name": "cozy_campfire.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/ui_themes/cozy_campfire.json",
+            "MD5": "02b0cd78a482dbd7ec793e123f4c007b",
+            "path": "config/fancymenu/ui_themes/cozy_campfire.json"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 9329,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "cbf30e731636c918d598f1ad9b0ea371",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "dark_high_contrast.json",
+          "name": "dark_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9359,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/ui_themes/dark_high_contrast.json",
+            "MD5": "4b532a7a5c5ecd839e55a3c083c8bca3",
+            "path": "config/fancymenu/ui_themes/dark_high_contrast.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 9331,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "f3980d6eed1064c36d794d7b1030fd06",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "light_high_contrast.json",
+          "name": "light_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9361,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/ui_themes/light_high_contrast.json",
+            "MD5": "700ff9cd0e95ac2234e0494af729226a",
+            "path": "config/fancymenu/ui_themes/light_high_contrast.json"
+          }
+        },
+        {
+          "id": "pumpkin_soup.json",
+          "name": "pumpkin_soup.json",
+          "type": "File",
+          "artifact": {
+            "size": 9345,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/ui_themes/pumpkin_soup.json",
+            "MD5": "d322c4bde872420ddeb2eaa124d0f16a",
+            "path": "config/fancymenu/ui_themes/pumpkin_soup.json"
+          }
+        },
+        {
+          "id": "purple_void.json",
+          "name": "purple_void.json",
+          "type": "File",
+          "artifact": {
+            "size": 9343,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/ui_themes/purple_void.json",
+            "MD5": "79df3b7ab7a74d55e3f5bb70cd996dea",
+            "path": "config/fancymenu/ui_themes/purple_void.json"
+          }
+        },
+        {
+          "id": "spooky_season.json",
+          "name": "spooky_season.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/ui_themes/spooky_season.json",
+            "MD5": "c45cc6e6bd9c4a296227e764dcf1e953",
+            "path": "config/fancymenu/ui_themes/spooky_season.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "farmersdelight-client.toml",
+          "name": "farmersdelight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 478,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/farmersdelight-client.toml",
+            "MD5": "cd9a64a5389139e573bbfb183153dc70",
+            "path": "config/farmersdelight-client.toml"
+          }
+        },
+        {
+          "id": "farmersdelight-common.toml",
+          "name": "farmersdelight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3930,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/farmersdelight-common.toml",
+            "MD5": "6a3569c558619c4c5eee563ea572cff7",
+            "path": "config/farmersdelight-common.toml"
+          }
+        },
+        {
+          "id": "ferritecore-mixin.toml",
+          "name": "ferritecore-mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1516,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/ferritecore-mixin.toml",
+            "MD5": "ab9006eb6d50292a11f757c0ae658ac0",
+            "path": "config/ferritecore-mixin.toml"
+          }
+        },
+        {
+          "id": "firstaid-client.toml",
+          "name": "firstaid-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2163,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/firstaid-client.toml",
+            "MD5": "2a031c2f9c7c447ad8933c109dd60057",
+            "path": "config/firstaid-client.toml"
+          }
+        },
+        {
+          "id": "firstaid-common.toml",
+          "name": "firstaid-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 187,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/firstaid-common.toml",
+            "MD5": "03ffdb83880a55656d0e7272af8a8d6e",
+            "path": "config/firstaid-common.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1148,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/fml.toml",
+            "MD5": "783d5f5e55fc91951e5e234d72980761",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1628,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "healingcampfire.json5",
+          "name": "healingcampfire.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1229,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/healingcampfire.json5",
+            "MD5": "f3becb3cb2cbf326e25710bfb3d4d8c1",
+            "path": "config/healingcampfire.json5"
+          }
+        },
+        {
+          "id": "blacklist.cfg",
+          "name": "blacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/blacklist.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/jei/blacklist.cfg"
+          }
+        },
+        {
+          "id": "blacklist.json",
+          "name": "blacklist.json",
+          "type": "File",
+          "artifact": {
+            "size": 19,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/blacklist.json",
+            "MD5": "ea5744cdc731b505949494bc512d338d",
+            "path": "config/jei/blacklist.json"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "0727e584b517c6eb84e1668af71b58f2",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 74,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "9256ba0b170fac4934f83a4e789d14a8",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 12985,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "bb82e8a76f1c76ef09bba2b8394ca37e",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1362,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "2b1d073ff360c11353f0079b7539cb2e",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "2f0b31fe55701f6908bcd0bc6bad9497",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 489,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "7346a8c14352eda612ae4765f6758a62",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 443,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "6cec9ddae5b4ea38af47f57b5c2c8ab3",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "lookupHistory.ini",
+          "name": "lookupHistory.ini",
+          "type": "File",
+          "artifact": {
+            "size": 720,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/world/local/Pravi%20svijet/lookupHistory.ini",
+            "MD5": "b27ee162cb4abf5e3d700b3a36490bb8",
+            "path": "config/jei/world/local/Pravi svijet/lookupHistory.ini"
+          }
+        },
+        {
+          "id": "bookmarks.ini",
+          "name": "bookmarks.ini",
+          "type": "File",
+          "artifact": {
+            "size": 78,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/jei/world/local/Test_2/bookmarks.ini",
+            "MD5": "77a6a0101d96f6f43ab463dbc9c95270",
+            "path": "config/jei/world/local/Test_2/bookmarks.ini"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/konkrete/locals/en_us.local",
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "_example.json.disabled",
+          "name": "_example.json.disabled",
+          "type": "File",
+          "artifact": {
+            "size": 50,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/locks/lockpick_types/_example.json.disabled",
+            "MD5": "570abc4030493a9a1c0fd647841d2e63",
+            "path": "config/locks/lockpick_types/_example.json.disabled"
+          }
+        },
+        {
+          "id": "_example.json.disabled",
+          "name": "_example.json.disabled",
+          "type": "File",
+          "artifact": {
+            "size": 65,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/locks/lock_types/_example.json.disabled",
+            "MD5": "ed5b8141795b03b66c3758bb67a6a4b7",
+            "path": "config/locks/lock_types/_example.json.disabled"
+          }
+        },
+        {
+          "id": "locks-client.toml",
+          "name": "locks-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 123,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/locks-client.toml",
+            "MD5": "aff630f3841f53e6e8c328894ffca930",
+            "path": "config/locks-client.toml"
+          }
+        },
+        {
+          "id": "locks-common.toml",
+          "name": "locks-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 8429,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/locks-common.toml",
+            "MD5": "363fdb0a770f13dd7d1bf01475b905dc",
+            "path": "config/locks-common.toml"
+          }
+        },
+        {
+          "id": "modernfix-common.toml",
+          "name": "modernfix-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 107,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/modernfix-common.toml",
+            "MD5": "1d50de2e9c0bda2952844de7a3306d10",
+            "path": "config/modernfix-common.toml"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 6643,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/modernfix-mixins.properties",
+            "MD5": "e45e143ab517790502cbb3c9e3ce3d72",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "moonlight-client.toml",
+          "name": "moonlight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1027,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/moonlight-client.toml",
+            "MD5": "12be1e89e835cca57c9017fa96f2d7e0",
+            "path": "config/moonlight-client.toml"
+          }
+        },
+        {
+          "id": "moonlight-common.toml",
+          "name": "moonlight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1023,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/moonlight-common.toml",
+            "MD5": "00729a29d2b24292a06e174c24a3a831",
+            "path": "config/moonlight-common.toml"
+          }
+        },
+        {
+          "id": "origins_server.json",
+          "name": "origins_server.json",
+          "type": "File",
+          "artifact": {
+            "size": 3419,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/origins_server.json",
+            "MD5": "43475825a7b9fa77b385758020e10919",
+            "path": "config/origins_server.json"
+          }
+        },
+        {
+          "id": "pal.properties",
+          "name": "pal.properties",
+          "type": "File",
+          "artifact": {
+            "size": 216,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/pal.properties",
+            "MD5": "daffd9b9b5cf7f0dd46de4f0ac688987",
+            "path": "config/pal.properties"
+          }
+        },
+        {
+          "id": "particular-common.toml",
+          "name": "particular-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5347,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/particular-common.toml",
+            "MD5": "a3907e3fae495bb1ab088a2c1a445e89",
+            "path": "config/particular-common.toml"
+          }
+        },
+        {
+          "id": "pehkui-client.toml",
+          "name": "pehkui-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 138,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/pehkui-client.toml",
+            "MD5": "319a4fcb484d622b63c3b084f90aeb75",
+            "path": "config/pehkui-client.toml"
+          }
+        },
+        {
+          "id": "pehkui-common.toml",
+          "name": "pehkui-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 407,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/pehkui-common.toml",
+            "MD5": "598daff44b47eff89332e1677c59ca87",
+            "path": "config/pehkui-common.toml"
+          }
+        },
+        {
+          "id": "power_config.json5",
+          "name": "power_config.json5",
+          "type": "File",
+          "artifact": {
+            "size": 224,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/power_config.json5",
+            "MD5": "0792c8320417416350d424b3126003d6",
+            "path": "config/power_config.json5"
+          }
+        },
+        {
+          "id": "quickskin-client.json",
+          "name": "quickskin-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 1302,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/quickskin-client.json",
+            "MD5": "b8cfd49a6c88e866c2b8aa189e542326",
+            "path": "config/quickskin-client.json"
+          }
+        },
+        {
+          "id": "quickskin-server.json",
+          "name": "quickskin-server.json",
+          "type": "File",
+          "artifact": {
+            "size": 72,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/quickskin-server.json",
+            "MD5": "c387f740790c90761d03846127f84f88",
+            "path": "config/quickskin-server.json"
+          }
+        },
+        {
+          "id": "quickskin_preferences.json",
+          "name": "quickskin_preferences.json",
+          "type": "File",
+          "artifact": {
+            "size": 361,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/quickskin_preferences.json",
+            "MD5": "dafcdf8b8005ff37b357912ed20a7598",
+            "path": "config/quickskin_preferences.json"
+          }
+        },
+        {
+          "id": "replaymod-rendersettings.json",
+          "name": "replaymod-rendersettings.json",
+          "type": "File",
+          "artifact": {
+            "size": 715,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/replaymod-rendersettings.json",
+            "MD5": "15917abc4266d69bb33baeff63777efd",
+            "path": "config/replaymod-rendersettings.json"
+          }
+        },
+        {
+          "id": "replaymod.json",
+          "name": "replaymod.json",
+          "type": "File",
+          "artifact": {
+            "size": 1738,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/replaymod.json",
+            "MD5": "a0e5e2ff90c55997c6fd1a0b1ca60004",
+            "path": "config/replaymod.json"
+          }
+        },
+        {
+          "id": "skin-preferences.json",
+          "name": "skin-preferences.json",
+          "type": "File",
+          "artifact": {
+            "size": 108,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/skin-preferences.json",
+            "MD5": "a89166c9c0e0428e8db52256cf4a4373",
+            "path": "config/skin-preferences.json"
+          }
+        },
+        {
+          "id": "sophisticatedbackpacks-common.toml",
+          "name": "sophisticatedbackpacks-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/sophisticatedbackpacks-common.toml",
+            "MD5": "2c6eb54ca9cb7722ec68ffc73667b88b",
+            "path": "config/sophisticatedbackpacks-common.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-client.toml",
+          "name": "sophisticatedcore-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 478,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/sophisticatedcore-client.toml",
+            "MD5": "9b192028e54cc9ddfe9b11a23c16fec6",
+            "path": "config/sophisticatedcore-client.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-common.toml",
+          "name": "sophisticatedcore-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3949,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/sophisticatedcore-common.toml",
+            "MD5": "a5e816f801ebb0776cc3219fee51f721",
+            "path": "config/sophisticatedcore-common.toml"
+          }
+        },
+        {
+          "id": "supplementaries-client.toml",
+          "name": "supplementaries-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9371,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/supplementaries-client.toml",
+            "MD5": "bbb47acfa7179d5b6c326415687fb042",
+            "path": "config/supplementaries-client.toml"
+          }
+        },
+        {
+          "id": "supplementaries-common.toml",
+          "name": "supplementaries-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 24952,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/supplementaries-common.toml",
+            "MD5": "5d0c2a9211f40934c60a39b91d990f8a",
+            "path": "config/supplementaries-common.toml"
+          }
+        },
+        {
+          "id": "category-volumes.properties",
+          "name": "category-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/voicechat/category-volumes.properties",
+            "MD5": "47731f53ffef4a8a57c766a8091a5651",
+            "path": "config/voicechat/category-volumes.properties"
+          }
+        },
+        {
+          "id": "player-volumes.properties",
+          "name": "player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/voicechat/player-volumes.properties",
+            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5061,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "839378e7f759fb82914bacbd3ea6f882",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3072,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "7d83d34bf4d0b39477c28143469ca7aa",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/voicechat-client.toml",
+            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
+            "path": "config/voicechat-client.toml"
+          }
+        },
+        {
+          "id": "walljump.json5",
+          "name": "walljump.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1294,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/walljump.json5",
+            "MD5": "a32c2e6f9ac7e50ce08f19ea332353b0",
+            "path": "config/walljump.json5"
+          }
+        },
+        {
+          "id": "weaponmaster_ydm-common.toml",
+          "name": "weaponmaster_ydm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7657,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/weaponmaster_ydm-common.toml",
+            "MD5": "50e9f2d6e121917967251ddf4d18e75f",
+            "path": "config/weaponmaster_ydm-common.toml"
+          }
+        },
+        {
+          "id": ".unpack_finished",
+          "name": ".unpack_finished",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/.unpack_finished",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/.unpack_finished"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/af/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/af/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 4566,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ar/strings.json",
+            "MD5": "ccb6a591026d66e7e76c26ca6c0e532f",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ar/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ast/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ast/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/az/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/az/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ba/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ba/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 4057,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/be/strings.json",
+            "MD5": "31b3ec62109f6c0a119276e03241602e",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/be/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3965,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/bg/strings.json",
+            "MD5": "4da771800d50c6412f16cb8ecdf0ae51",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/bg/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/br-FR/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/br-FR/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32279,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/brb/strings.json",
+            "MD5": "a789705dfa83f3664bdebdb984ff8995",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/brb/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/bs/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/bs/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 554,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ca/strings.json",
+            "MD5": "53dffe2d3cbcc78a17fcc99596da24ee",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ca/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 33420,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/cs/strings.json",
+            "MD5": "4e8739531e0ee0327c77eea5eb7a46b8",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/cs/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/cy/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/cy/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3017,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/da/strings.json",
+            "MD5": "da14739631bb76fc23562b147db8166c",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/da/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/de/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/de/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/de-AT/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/de-AT/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34058,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/de-CH/strings.json",
+            "MD5": "2eb256b4751d75bace150bd0c696cb83",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/de-CH/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/el/strings.json",
+            "MD5": "7eb20ef5a335fdca3a659de45f0ee52d",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/el/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 642,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-AU/strings.json",
+            "MD5": "f40485c55a59db3256f5929332fed381",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-AU/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 712,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-CA/strings.json",
+            "MD5": "3aedf14afeaa8e7bf8f7a224a3e4eaf9",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-CA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-NZ/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-NZ/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1992,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-PT/strings.json",
+            "MD5": "cb0ae13506c8351b96540b2ed39b9f87",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-PT/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 17531,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/en-UD/strings.json",
+            "MD5": "ec2dedfc3914c50ce153e2defe4c8cee",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/en-UD/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/enp/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/enp/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1007,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/eo/strings.json",
+            "MD5": "a3652a01fb6c04defc5b7b23a3b6ceef",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/eo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36277,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-AR/strings.json",
+            "MD5": "ec411eb07566c8d9e97cd957400c999f",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-AR/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36404,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-CL/strings.json",
+            "MD5": "361c65a0897f30ce43f267309faa24c0",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-CL/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36501,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-ES/strings.json",
+            "MD5": "fc16f7aeeaf0ad834884201990f366ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-ES/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36501,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-MX/strings.json",
+            "MD5": "fc16f7aeeaf0ad834884201990f366ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-MX/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36501,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-UY/strings.json",
+            "MD5": "fc16f7aeeaf0ad834884201990f366ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-UY/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 36132,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/es-VE/strings.json",
+            "MD5": "68844d44b838bde705ea5e1f7dfda57d",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/es-VE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 5508,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/et/strings.json",
+            "MD5": "b3fa73fded9362326cdb04bfb09a8592",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/et/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 8587,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/eu/strings.json",
+            "MD5": "c8c24b1f4753c192e77dda4627067a1b",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/eu/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fa/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fa/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1550,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fi/strings.json",
+            "MD5": "6b73b3641335c7c160d4f2dd99d3dafe",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fil/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fil/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fo/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 35723,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fr/strings.json",
+            "MD5": "ed223033212f5084996ddbf33a7b644e",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 35762,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fr-CA/strings.json",
+            "MD5": "bb67f2e1e52705781a8cf6133720be9a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fr-CA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fra-DE/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fra-DE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/fy-NL/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/fy-NL/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ga-IE/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ga-IE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/gd/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/gd/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/gl/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/gl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/got/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/got/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/gv/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/gv/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/haw/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/haw/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 71,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/he/strings.json",
+            "MD5": "4e832ed3e460ceb5ef38a22c8258c184",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/he/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hi/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hr/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 11082,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hu/strings.json",
+            "MD5": "d5ee1f965beff20fa76c0fc281c94f5c",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hu/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/hy-AM/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/hy-AM/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32493,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/id/strings.json",
+            "MD5": "49fab71647a81e4bc08cb9e7e51e73fc",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/id/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ido/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ido/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ig/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ig/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 279,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/is/strings.json",
+            "MD5": "794efc06106e4027561eb6d74028e887",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/is/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 33942,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/it/strings.json",
+            "MD5": "ffdb60409ff4f44fc8f954211acdc2a0",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/it/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 24452,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ja/strings.json",
+            "MD5": "cf9313d382146ffe9fbeebf8ad3e5203",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ja/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/jbo/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/jbo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ka/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ka/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kab/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kab/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kn/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kn/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 30621,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ko/strings.json",
+            "MD5": "3ed68c2d5389712bab212c78c603c0e4",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ko/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ksh/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ksh/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/kw/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/kw/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/la-LA/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/la-LA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 288,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lb/strings.json",
+            "MD5": "0a50b81a33bb67e591f09dbdaf31d908",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lb/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/li/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/li/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 22098,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lol/strings.json",
+            "MD5": "b3c4c53f4d5c5511dbd7317dad5dacf2",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lol/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lt/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lt/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/lv/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/lv/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mi/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 2954,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mn/strings.json",
+            "MD5": "b79b3cb1bc3f4ad2aaaa67dfd37c7214",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mn/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/moh/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/moh/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ms/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ms/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1759,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/mt/strings.json",
+            "MD5": "0482cda50f0dcfe3a997d45a78c68992",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/mt/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nds/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nds/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32279,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nl/strings.json",
+            "MD5": "a789705dfa83f3664bdebdb984ff8995",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 32269,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nl-BE/strings.json",
+            "MD5": "48c7832eb4861f1637914f0e9997d118",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nl-BE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 29879,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nn-NO/strings.json",
+            "MD5": "19be849f76be7d235b23a8e40ff5d473",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nn-NO/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 29879,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/no/strings.json",
+            "MD5": "19be849f76be7d235b23a8e40ff5d473",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/no/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/nuk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/nuk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/oc/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/oc/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/oj/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/oj/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34723,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/pl/strings.json",
+            "MD5": "65d67e61bfbd296d2c459568ff81aa08",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/pl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 25690,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/pt-BR/strings.json",
+            "MD5": "11b68abf2041d0317ce70d4ea9a168b2",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/pt-BR/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 5382,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/pt-PT/strings.json",
+            "MD5": "71d75aef55ecc25968af12c6a7d6a797",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/pt-PT/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/qya-AA/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/qya-AA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 1737,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ro/strings.json",
+            "MD5": "2e12734bc58538ee90f53cd6377640ba",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ro/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 44527,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ru/strings.json",
+            "MD5": "103d4a2db8f1e6d34293936bb5541cee",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ru/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 826,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/se/strings.json",
+            "MD5": "7b1936c9586549d0326c27071f429b85",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/se/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 10085,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sk/strings.json",
+            "MD5": "b2dc7d3c0f989c0a7f302b371828e7d9",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sl/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/so/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/so/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 6753,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sq/strings.json",
+            "MD5": "53d11b8f421eee6c8a1ca6d90d900407",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sq/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sr/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 31478,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/strings.json",
+            "MD5": "b459064336009ca1af4cbeb0b6f92bdc",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28182,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/sv-SE/strings.json",
+            "MD5": "f948fde151ba8f554de572abf67d152f",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/sv-SE/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34421,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/swg/strings.json",
+            "MD5": "672d1b9b89ebe11d78bcdc7cf6f3e87a",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/swg/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 34723,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/szl/strings.json",
+            "MD5": "65d67e61bfbd296d2c459568ff81aa08",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/szl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/ta/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/ta/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/th/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/th/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tlh-AA/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tlh-AA/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 17748,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tr/strings.json",
+            "MD5": "d03f015cffcfe4751f4d7a1ef6fe0582",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tr/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 106,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tt-RU/strings.json",
+            "MD5": "30e0b21e67369430a8ce336bec414c74",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tt-RU/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/tzl/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/tzl/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/uk/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/uk/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/val-ES/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/val-ES/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/vec/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/vec/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 5975,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/vi/strings.json",
+            "MD5": "f97d02c4ef8f8f1d22067ec2baeef505",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/vi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/yi/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/yi/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/yo/strings.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/yo/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 31940,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/zh-CN/strings.json",
+            "MD5": "78cdb55f7b0f706d9448a289bcfedd8b",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/zh-CN/strings.json"
+          }
+        },
+        {
+          "id": "strings.json",
+          "name": "strings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28368,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/.archive-unpack/2e1dd752/zh-TW/strings.json",
+            "MD5": "543f18210face47b370fbbfe4697c8a6",
+            "path": "config/worldedit/.archive-unpack/2e1dd752/zh-TW/strings.json"
+          }
+        },
+        {
+          "id": "worldedit.properties",
+          "name": "worldedit.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2542,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/config/worldedit/worldedit.properties",
+            "MD5": "9c69a15319fd0a7e5ac76a93b0aae774",
+            "path": "config/worldedit/worldedit.properties"
+          }
+        },
+        {
+          "id": "alcocraftplus-1.20-2.1.1-forge.jar",
+          "name": "alcocraftplus-1.20-2.1.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 276750,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/alcocraftplus-1.20-2.1.1-forge.jar",
+            "MD5": "6f930b00513fdee17a566207df9fdf7b",
+            "path": "mods/alcocraftplus-1.20-2.1.1-forge.jar"
+          }
+        },
+        {
+          "id": "another_furniture-forge-1.20.1-3.0.4.jar",
+          "name": "another_furniture-forge-1.20.1-3.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2463633,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/another_furniture-forge-1.20.1-3.0.4.jar",
+            "MD5": "cc1fc7aaac4322d79446e3b5243cfe70",
+            "path": "mods/another_furniture-forge-1.20.1-3.0.4.jar"
+          }
+        },
+        {
+          "id": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "name": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47428,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953",
+            "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar"
+          }
+        },
+        {
+          "id": "architectury-9.2.14-forge.jar",
+          "name": "architectury-9.2.14-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 580602,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5",
+            "path": "mods/architectury-9.2.14-forge.jar"
+          }
+        },
+        {
+          "id": "astikorcartsredux-1.2.5.jar",
+          "name": "astikorcartsredux-1.2.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 530548,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/astikorcartsredux-1.2.5.jar",
+            "MD5": "1560ab5613043bf2819aaffe581e4243",
+            "path": "mods/astikorcartsredux-1.2.5.jar"
+          }
+        },
+        {
+          "id": "Bookshelf-Forge-1.20.1-20.2.15.jar",
+          "name": "Bookshelf-Forge-1.20.1-20.2.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 343925,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/Bookshelf-Forge-1.20.1-20.2.15.jar",
+            "MD5": "984cc53b314436f57e3bf72b8a1ba62b",
+            "path": "mods/Bookshelf-Forge-1.20.1-20.2.15.jar"
+          }
+        },
+        {
+          "id": "butchery-5.2-forge-1.20.1.jar",
+          "name": "butchery-5.2-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16571825,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/butchery-5.2-forge-1.20.1.jar",
+            "MD5": "7eb5e75eb6d904101a1e8ff0d09dac4e",
+            "path": "mods/butchery-5.2-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "Coins-Forge-1.20.1-13.0.4.jar",
+          "name": "Coins-Forge-1.20.1-13.0.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 45105,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/Coins-Forge-1.20.1-13.0.4.jar",
+            "MD5": "9426ef5924c6d9423908fa05a10b5e14",
+            "path": "mods/Coins-Forge-1.20.1-13.0.4.jar"
+          }
+        },
+        {
+          "id": "collective-1.20.1-8.39.jar",
+          "name": "collective-1.20.1-8.39.jar",
+          "type": "File",
+          "artifact": {
+            "size": 745947,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/collective-1.20.1-8.39.jar",
+            "MD5": "728bc556a380eb0dfb7c901bf3b437fe",
+            "path": "mods/collective-1.20.1-8.39.jar"
+          }
+        },
+        {
+          "id": "Connector-1.0.0-beta.49+1.20.1.jar",
+          "name": "Connector-1.0.0-beta.49+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5046108,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/Connector-1.0.0-beta.49+1.20.1.jar",
+            "MD5": "cffecb61f4026213b4a5ebb6dcd6b8bf",
+            "path": "mods/Connector-1.0.0-beta.49+1.20.1.jar"
+          }
+        },
+        {
+          "id": "ConnectorExtras-1.11.2+1.20.1.jar",
+          "name": "ConnectorExtras-1.11.2+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 182464,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/ConnectorExtras-1.11.2+1.20.1.jar",
+            "MD5": "6a79978270b2aa5ddc42c2be4f4d73a7",
+            "path": "mods/ConnectorExtras-1.11.2+1.20.1.jar"
+          }
+        },
+        {
+          "id": "corpse-forge-1.20.1-1.0.23.jar",
+          "name": "corpse-forge-1.20.1-1.0.23.jar",
+          "type": "File",
+          "artifact": {
+            "size": 245644,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/corpse-forge-1.20.1-1.0.23.jar",
+            "MD5": "a486f676f5e47e5846e31cb66cb5c16d",
+            "path": "mods/corpse-forge-1.20.1-1.0.23.jar"
+          }
+        },
+        {
+          "id": "CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+          "name": "CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1144128,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar",
+            "MD5": "941e290ecd7ca54c2ed6a543b68d754b",
+            "path": "mods/CreativeCore_FORGE_v2.12.39_mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "DynamicTrees-1.20.1-1.4.11.jar",
+          "name": "DynamicTrees-1.20.1-1.4.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3761924,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/DynamicTrees-1.20.1-1.4.11.jar",
+            "MD5": "dcc53290966fd0bbdd99adc9412c77ba",
+            "path": "mods/DynamicTrees-1.20.1-1.4.11.jar"
+          }
+        },
+        {
+          "id": "dynamic_lightweight_lights-1.0.0-forge-1.20.1.jar",
+          "name": "dynamic_lightweight_lights-1.0.0-forge-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21699,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/dynamic_lightweight_lights-1.0.0-forge-1.20.1.jar",
+            "MD5": "67e6ca1fd89d8226c4b6edac20084183",
+            "path": "mods/dynamic_lightweight_lights-1.0.0-forge-1.20.1.jar"
+          }
+        },
+        {
+          "id": "embeddium-0.3.31+mc1.20.1.jar",
+          "name": "embeddium-0.3.31+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7",
+            "path": "mods/embeddium-0.3.31+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "epic-fight-20.14.17-mc1.20.1-forge.jar",
+          "name": "epic-fight-20.14.17-mc1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8071119,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/epic-fight-20.14.17-mc1.20.1-forge.jar",
+            "MD5": "51d01cfa8222c92ae85efd1045c2abb9",
+            "path": "mods/epic-fight-20.14.17-mc1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "name": "fabric-api-0.92.6+1.11.15+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3065815,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/fabric-api-0.92.6+1.11.15+1.20.1.jar",
+            "MD5": "1ddac895d858a228bd0aa8f43cbf4b15",
+            "path": "mods/fabric-api-0.92.6+1.11.15+1.20.1.jar"
+          }
+        },
+        {
+          "id": "FarmersDelight-1.20.1-1.3.4.jar",
+          "name": "FarmersDelight-1.20.1-1.3.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3311051,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/FarmersDelight-1.20.1-1.3.4.jar",
+            "MD5": "a61302a31849ad9c37c6ac6e59268b75",
+            "path": "mods/FarmersDelight-1.20.1-1.3.4.jar"
+          }
+        },
+        {
+          "id": "ferritecore-6.0.1-forge.jar",
+          "name": "ferritecore-6.0.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 123034,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383",
+            "path": "mods/ferritecore-6.0.1-forge.jar"
+          }
+        },
+        {
+          "id": "firstaid-1.20.1-1.1.jar",
+          "name": "firstaid-1.20.1-1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 450159,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/firstaid-1.20.1-1.1.jar",
+            "MD5": "bd7a29c1c684cf2fe3657731287c5f87",
+            "path": "mods/firstaid-1.20.1-1.1.jar"
+          }
+        },
+        {
+          "id": "hardcore_true_darkness-6.jar",
+          "name": "hardcore_true_darkness-6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 55910,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/hardcore_true_darkness-6.jar",
+            "MD5": "f5751c1fd720da70b207e8daafe48c74",
+            "path": "mods/hardcore_true_darkness-6.jar"
+          }
+        },
+        {
+          "id": "Healing+Bed+1.20.1.jar",
+          "name": "Healing+Bed+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14862,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/Healing+Bed+1.20.1.jar",
+            "MD5": "88fccd9a8f008c6bf9a9e86a44144977",
+            "path": "mods/Healing+Bed+1.20.1.jar"
+          }
+        },
+        {
+          "id": "healingcampfire-1.20.1-6.3.jar",
+          "name": "healingcampfire-1.20.1-6.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 35554,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/healingcampfire-1.20.1-6.3.jar",
+            "MD5": "b3781b7eb0f69aa8e2907bda506559e8",
+            "path": "mods/healingcampfire-1.20.1-6.3.jar"
+          }
+        },
+        {
+          "id": "Hide_Nameplates-1.0.jar",
+          "name": "Hide_Nameplates-1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3401,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/Hide_Nameplates-1.0.jar",
+            "MD5": "a20c57fdd29c3e0a09bcbd5471b9d5c8",
+            "path": "mods/Hide_Nameplates-1.0.jar"
+          }
+        },
+        {
+          "id": "InventoryFree-1.20.1-3.2.1.jar",
+          "name": "InventoryFree-1.20.1-3.2.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 52694,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/InventoryFree-1.20.1-3.2.1.jar",
+            "MD5": "c7e579044830e0ae09b89e961b6af9e4",
+            "path": "mods/InventoryFree-1.20.1-3.2.1.jar"
+          }
+        },
+        {
+          "id": "jei-1.20.1-forge-15.56.0.205.jar",
+          "name": "jei-1.20.1-forge-15.56.0.205.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1778129,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/jei-1.20.1-forge-15.56.0.205.jar",
+            "MD5": "44bb8a6e9634ca96bfab19e515db3318",
+            "path": "mods/jei-1.20.1-forge-15.56.0.205.jar"
+          }
+        },
+        {
+          "id": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+          "name": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 625185,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098",
+            "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+          }
+        },
+        {
+          "id": "locks_reforged-1.7.5.jar",
+          "name": "locks_reforged-1.7.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 764811,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/locks_reforged-1.7.5.jar",
+            "MD5": "3e4727797a5eac39fce339c9878e72e5",
+            "path": "mods/locks_reforged-1.7.5.jar"
+          }
+        },
+        {
+          "id": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+          "name": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 37178,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6",
+            "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+          }
+        },
+        {
+          "id": "modernfix-forge-5.27.83+mc1.20.1.jar",
+          "name": "modernfix-forge-5.27.83+mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1003230,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/modernfix-forge-5.27.83+mc1.20.1.jar",
+            "MD5": "4222bb91833300504e3c0773aae1d999",
+            "path": "mods/modernfix-forge-5.27.83+mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "moonlight-1.20-2.16.35-forge.jar",
+          "name": "moonlight-1.20-2.16.35-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1425229,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/moonlight-1.20-2.16.35-forge.jar",
+            "MD5": "e679bad3fe734d0ef14104487ffaddb3",
+            "path": "mods/moonlight-1.20-2.16.35-forge.jar"
+          }
+        },
+        {
+          "id": "Origins-1.10.2+mc.1.20.x.jar",
+          "name": "Origins-1.10.2+mc.1.20.x.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2779016,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/Origins-1.10.2+mc.1.20.x.jar",
+            "MD5": "aa5b45ac370bedff059c78d68f0a835b",
+            "path": "mods/Origins-1.10.2+mc.1.20.x.jar"
+          }
+        },
+        {
+          "id": "particular-1.20.1-Forge-1.5.7.jar",
+          "name": "particular-1.20.1-Forge-1.5.7.jar",
+          "type": "File",
+          "artifact": {
+            "size": 485544,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/particular-1.20.1-Forge-1.5.7.jar",
+            "MD5": "89e38f68dbf6400a3dde88bef7477b53",
+            "path": "mods/particular-1.20.1-Forge-1.5.7.jar"
+          }
+        },
+        {
+          "id": "Pehkui-3.8.2+1.20.1-forge.jar",
+          "name": "Pehkui-3.8.2+1.20.1-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 671605,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/Pehkui-3.8.2+1.20.1-forge.jar",
+            "MD5": "95bdd5558d34044f54aab0ce292e679b",
+            "path": "mods/Pehkui-3.8.2+1.20.1-forge.jar"
+          }
+        },
+        {
+          "id": "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+          "name": "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5298162,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+            "MD5": "e07fc42680a0163c99c21cfa9afb9816",
+            "path": "mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar"
+          }
+        },
+        {
+          "id": "Quick Skin - Forge - 1.20.1-2.6.2.4.jar",
+          "name": "Quick Skin - Forge - 1.20.1-2.6.2.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3793684,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/Quick%20Skin%20-%20Forge%20-%201.20.1-2.6.2.4.jar",
+            "MD5": "f1cf6b3de20942d0a1f046be7a22168b",
+            "path": "mods/Quick Skin - Forge - 1.20.1-2.6.2.4.jar"
+          }
+        },
+        {
+          "id": "sophisticatedbackpacks-1.20.1-3.26.2.2139.jar",
+          "name": "sophisticatedbackpacks-1.20.1-3.26.2.2139.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1221846,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/sophisticatedbackpacks-1.20.1-3.26.2.2139.jar",
+            "MD5": "a3dcb7d018184cfe3fa7d781bff7a132",
+            "path": "mods/sophisticatedbackpacks-1.20.1-3.26.2.2139.jar"
+          }
+        },
+        {
+          "id": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+          "name": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1734797,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/sophisticatedcore-1.20.1-1.5.1.2335.jar",
+            "MD5": "c7545991854e04e6568c5173810a2564",
+            "path": "mods/sophisticatedcore-1.20.1-1.5.1.2335.jar"
+          }
+        },
+        {
+          "id": "voicechat-forge-1.20.1-2.6.22.jar",
+          "name": "voicechat-forge-1.20.1-2.6.22.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4923439,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/voicechat-forge-1.20.1-2.6.22.jar",
+            "MD5": "4e513ad55bf64e5ea4716544d51f1fde",
+            "path": "mods/voicechat-forge-1.20.1-2.6.22.jar"
+          }
+        },
+        {
+          "id": "walljump-1.20.1-1.3.8-forge.jar",
+          "name": "walljump-1.20.1-1.3.8-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 185771,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/walljump-1.20.1-1.3.8-forge.jar",
+            "MD5": "2d6534803574d17133a9f1a2aa2a91a4",
+            "path": "mods/walljump-1.20.1-1.3.8-forge.jar"
+          }
+        },
+        {
+          "id": "weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+          "name": "weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 283977,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
+            "MD5": "d8cbfa36266a62b13e087e6ed4fc94d5",
+            "path": "mods/weaponmaster_ydm-forge-1.20.1-4.2.3.jar"
+          }
+        },
+        {
+          "id": "worldedit-mod-7.2.15.jar",
+          "name": "worldedit-mod-7.2.15.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/mods/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639",
+            "path": "mods/worldedit-mod-7.2.15.jar"
+          }
+        }
+      ]
+    }
+  ]
+}

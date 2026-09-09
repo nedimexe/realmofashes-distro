@@ -1,0 +1,24 @@
+{
+  "$schema": "file:///C:/Users/nedim/Desktop/realmofasheslauncher/RealmOfAshesDistro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Realm of Ashes",
+    "description": "Realm of Ashes (Minecraft 1.20.1, Forge 47.4.10)",
+    "icon": "",
+    "address": "MCEARNA",
+    "mainServer": true,
+    "autoconnect": true,
+    "javaOptions": {
+      "supported": ">=17",
+      "suggestedMajor": 17,
+      "ram": {
+        "recommended": 4096,
+        "minimum": 2048
+      }
+    }
+  },
+  "forge": {
+    "version": "47.4.10"
+  },
+  "untrackedFiles": []
+}
