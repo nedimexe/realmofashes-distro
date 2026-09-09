@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "",
+  "rss": "https://nedimexe.github.io/realmofashes-news/news.xml",
   "servers": [
     {
       "id": "realmofashes-1.20.1",
