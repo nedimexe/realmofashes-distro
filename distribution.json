@@ -3575,6 +3575,17 @@
             "MD5": "bd0e7cff7896348faab92e43300d0639",
             "path": "mods/worldedit-mod-7.2.15.jar"
           }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 126,
+            "url": "https://nedimexe.github.io/realmofashes-distro/servers/realmofashes-1.20.1/files/servers.dat",
+            "MD5": "8b045e2447d5c32b5ad824e9d7272f4e",
+            "path": "servers.dat"
+          }
         }
       ]
     }
