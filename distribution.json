@@ -1,6 +1,9 @@
 {
   "version": "1.0.0",
   "rss": "https://nedimexe.github.io/realmofashes-news/news.xml",
+  "discord": {
+    "clientId": "1375504922195263538"
+  },
   "servers": [
     {
       "id": "realmofashes-1.20.1",
@@ -10,6 +13,9 @@
       "version": "1.0.0",
       "address": "MCEARNA",
       "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "Realm of Ashes"
+      },
       "mainServer": true,
       "autoconnect": true,
       "javaOptions": {
